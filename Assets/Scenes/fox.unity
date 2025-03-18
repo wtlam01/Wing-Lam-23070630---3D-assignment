@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackedImageManager: {fileID: 830083140}
-  shipPrefab: {fileID: 0}
+  foxPrefab: {fileID: 1234630554}
 --- !u!1 &887907142
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,12 +436,12 @@ PrefabInstance:
     - target: {fileID: 7017279243358077486, guid: 2340cd5d9a2fa45a69bfbb389ef6bed2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.51437
+      value: 1.03
       objectReference: {fileID: 0}
     - target: {fileID: 7017279243358077486, guid: 2340cd5d9a2fa45a69bfbb389ef6bed2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.3604
+      value: -0.41
       objectReference: {fileID: 0}
     - target: {fileID: 7017279243358077486, guid: 2340cd5d9a2fa45a69bfbb389ef6bed2,
         type: 3}
@@ -483,6 +483,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2340cd5d9a2fa45a69bfbb389ef6bed2, type: 3}
+--- !u!1 &1234630554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2921783458154344693, guid: 2340cd5d9a2fa45a69bfbb389ef6bed2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1234630553}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1327111586
 PrefabInstance:
   m_ObjectHideFlags: 0

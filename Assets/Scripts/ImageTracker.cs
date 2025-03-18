@@ -7,7 +7,7 @@ public class TrackImage : MonoBehaviour
 {
     [SerializeField]
     ARTrackedImageManager m_TrackedImageManager; 
-    public GameObject shipPrefab; //Prefab you want to appear on marker image
+    public GameObject foxPrefab; //Prefab you want to appear on marker image
     
     void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
 
@@ -19,7 +19,7 @@ public class TrackImage : MonoBehaviour
         foreach (ARTrackedImage newImage in eventArgs.added)
         {
         	// Create new copy of your prefab
-        	GameObject newObject = GameObject.Instantiate(shipPrefab);
+        	GameObject newObject = GameObject.Instantiate(foxPrefab);
         	// parent prefab to the newImage so that they stick together.
 			newObject.transform.SetParent(newImage.transform, false);
         }
