@@ -21,9 +21,9 @@ MonoBehaviour:
       m_GuidLow: 5140902531129222443
       m_GuidHigh: 5877569014885703317
     m_SerializedTextureGuid:
-      m_GuidLow: 0
-      m_GuidHigh: 0
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: 
-    m_Texture: {fileID: 0}
+      m_GuidLow: 3790236298937710439
+      m_GuidHigh: 710549138624132632
+    m_Size: {x: 0.5, y: 0.5}
+    m_SpecifySize: 1
+    m_Name: Fox
+    m_Texture: {fileID: 2800000, guid: 14f937679fd5349918b6264bad60dc09, type: 3}
