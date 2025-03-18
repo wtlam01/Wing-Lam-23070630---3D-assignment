@@ -1,0 +1,5 @@
+/Users/w33-lam/Wing Lam (23070630)- 3D assignment/.utmp/RelWithDebInfo/5a52583h/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/w33-lam/Wing Lam (23070630)- 3D assignment/.utmp/RelWithDebInfo/5a52583h/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/w33-lam/Wing Lam (23070630)- 3D assignment/.utmp/RelWithDebInfo/5a52583h/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/w33-lam/Wing Lam (23070630)- 3D assignment/.utmp/RelWithDebInfo/5a52583h/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/w33-lam/Wing Lam (23070630)- 3D assignment/.utmp/RelWithDebInfo/5a52583h/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
