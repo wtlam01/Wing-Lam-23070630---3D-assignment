@@ -23,11 +23,11 @@ public class TrackImage : MonoBehaviour
 
             newObject.transform.SetParent(newImage.transform, false);
 
-           // Vector3 position = newImage.transform.position;
+        //    Vector3 position = newImage.transform.position;
 
-           // newObject.transform.position = position;
+        //    newObject.transform.position = position;
 
-          //  Quaternion rotation = newImage.transform.rotation * Quaternion.Euler(0, 90, 0); 
+        //   Quaternion rotation = newImage.transform.rotation * Quaternion.Euler(0, 90, 0); 
 
 
         }
