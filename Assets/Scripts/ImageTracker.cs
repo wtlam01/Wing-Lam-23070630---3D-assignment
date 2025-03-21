@@ -15,13 +15,21 @@ public class TrackImage : MonoBehaviour
 
     void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
-    	// When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
+        // When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
         foreach (ARTrackedImage newImage in eventArgs.added)
         {
-        	// Create new copy of your prefab
-        	GameObject newObject = GameObject.Instantiate(foxPrefab);
-        	// parent prefab to the newImage so that they stick together.
-			newObject.transform.SetParent(newImage.transform, false);
+           GameObject newObject = GameObject.Instantiate(foxPrefab);
+
+
+            newObject.transform.SetParent(newImage.transform, false);
+
+           // Vector3 position = newImage.transform.position;
+
+           // newObject.transform.position = position;
+
+          //  Quaternion rotation = newImage.transform.rotation * Quaternion.Euler(0, 90, 0); 
+
+
         }
     }
 }
