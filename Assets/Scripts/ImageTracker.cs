@@ -18,16 +18,19 @@ public class TrackImage : MonoBehaviour
         // When the camera picks up a new image marker Unity adds a game object to it called newImage, this will stick to maker.
         foreach (ARTrackedImage newImage in eventArgs.added)
         {
-           GameObject newObject = GameObject.Instantiate(foxPrefab);
+        //    GameObject newObject = GameObject.Instantiate(foxPrefab);
 
 
-            newObject.transform.SetParent(newImage.transform, false);
+            // newObject.transform.SetParent(newImage.transform, false);
 
-        //    Vector3 position = newImage.transform.position;
+           Vector3 position = newImage.transform.position;
 
         //    newObject.transform.position = position;
 
-        //   Quaternion rotation = newImage.transform.rotation * Quaternion.Euler(0, 90, 0); 
+          Quaternion rotation = newImage.transform.rotation * Quaternion.Euler(0, 90, 0); 
+
+
+          GameObject newObject = GameObject.Instantiate(foxPrefab, position, rotation);
 
 
         }
