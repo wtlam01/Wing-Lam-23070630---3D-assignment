@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class Robot_Interactions : MonoBehaviour
 {
-     bool annotationVisible = false; //current visibility of ship
+    bool annotationVisible = false; //current visibility of ship
     public GameObject annotation; // annotation object
+
+
+
+
 
     public void selected()
     {
+
+
+
 
         Debug.Log("show annotation");
         //toggle visibility of the annotation
@@ -20,6 +27,9 @@ public class Robot_Interactions : MonoBehaviour
             annotation.SetActive(true);
             annotationVisible = true;
         }
+
+
+
 
     }
 }

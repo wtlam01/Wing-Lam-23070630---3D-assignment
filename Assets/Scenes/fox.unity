@@ -971,8 +971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7520d2cc72bd48d986e04d822920c30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeStart: 60
-  textBox: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

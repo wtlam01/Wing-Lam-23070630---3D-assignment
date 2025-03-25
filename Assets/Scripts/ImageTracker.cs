@@ -9,6 +9,10 @@ public class TrackImage : MonoBehaviour
     ARTrackedImageManager m_TrackedImageManager; 
     public GameObject foxPrefab; //Prefab you want to appear on marker image
     
+
+    GameObject currentObject;
+
+
     void OnEnable() => m_TrackedImageManager.trackedImagesChanged += OnChanged;
 
     void OnDisable() => m_TrackedImageManager.trackedImagesChanged -= OnChanged;
@@ -30,9 +34,15 @@ public class TrackImage : MonoBehaviour
           Quaternion rotation = newImage.transform.rotation * Quaternion.Euler(0, 90, 0); 
 
 
-          GameObject newObject = GameObject.Instantiate(foxPrefab, position, rotation);
+           currentObject = GameObject.Instantiate(foxPrefab, position, rotation);
 
 
         }
     }
+
+
+
+
+
+
 }
