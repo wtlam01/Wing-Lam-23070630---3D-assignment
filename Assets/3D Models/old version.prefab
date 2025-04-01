@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2413854811853610504}
   m_Layer: 0
-  m_Name: Dead Enviornment
+  m_Name: old version
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
