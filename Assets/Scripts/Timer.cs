@@ -64,7 +64,7 @@
 //     }
 // }
 
-
+//*********************************
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -76,8 +76,15 @@ public class Timer : MonoBehaviour
     [SerializeField] float totalTime = 60f; // Faster transition time
     private float elapsedTime = 0f;
 
+    public bool clockRunning = false; 
+
+
+
     void Update()
     {
+
+       if (clockRunning){
+
         if (elapsedTime < totalTime)
         {
             elapsedTime += Time.deltaTime * 20f; // Increase speed (1.5x faster)
@@ -98,6 +105,18 @@ public class Timer : MonoBehaviour
         // Gradually transition text color from white to red
         float t = Mathf.Clamp01((float)(currentYear - startYear) / (endYear - startYear) * 1.5f); // Faster transition
         TimerText.color = Color.Lerp(Color.white, Color.red, t);
+       } 
+
+
+
+
     }
+
+    public void startTimer (){
+    clockRunning = true;
+
+    }
+
+
 }
 
