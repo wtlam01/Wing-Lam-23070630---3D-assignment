@@ -1,0 +1,11 @@
+Model Information:
+* title:	Duck - Low Poly, Rigged
+* source:	https://sketchfab.com/3d-models/duck-low-poly-rigged-a673cd1b823c417c8259f01800a3783b
+* author:	TheRedLemon (https://sketchfab.com/TheRedLemon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Duck - Low Poly, Rigged" (https://sketchfab.com/3d-models/duck-low-poly-rigged-a673cd1b823c417c8259f01800a3783b) by TheRedLemon (https://sketchfab.com/TheRedLemon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

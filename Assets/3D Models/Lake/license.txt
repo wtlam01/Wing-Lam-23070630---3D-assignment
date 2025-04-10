@@ -1,0 +1,11 @@
+Model Information:
+* title:	low poly Lake
+* source:	https://sketchfab.com/3d-models/low-poly-lake-4027eb1f67fd41028185d13a0ca92f1d
+* author:	irzafy (https://sketchfab.com/irzafy09)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "low poly Lake" (https://sketchfab.com/3d-models/low-poly-lake-4027eb1f67fd41028185d13a0ca92f1d) by irzafy (https://sketchfab.com/irzafy09) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
