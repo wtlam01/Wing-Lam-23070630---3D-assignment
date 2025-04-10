@@ -79,6 +79,7 @@ public class Timer : MonoBehaviour
     public bool clockRunning = false; 
     public GameObject before2025environment;
     public GameObject after2025environment;
+    public GameObject fire;
 
 
 
@@ -105,7 +106,7 @@ public class Timer : MonoBehaviour
         TimerText.text = currentYear.ToString();
 
         // Gradually transition text color from white to red
-        float t = Mathf.Clamp01((float)(currentYear - startYear) / (endYear - startYear) * 1.5f); // Faster transition
+        float t = Mathf.Clamp01((float)(currentYear - startYear) / (endYear - startYear) * 1f); // Faster transition
         TimerText.color = Color.Lerp(Color.white, Color.red, t); 
 
         if (currentYear < 2025)
@@ -126,9 +127,10 @@ public class Timer : MonoBehaviour
 
     }
 
-    public void startTimer (){
+    public void startTimer ()
+    {
     clockRunning = true;
-
+    fire.SetActive(true);
     }
 
 
