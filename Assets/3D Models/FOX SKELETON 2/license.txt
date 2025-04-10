@@ -1,0 +1,11 @@
+Model Information:
+* title:	3D Dog Bone Project: C7 vertebra
+* source:	https://sketchfab.com/3d-models/3d-dog-bone-project-c7-vertebra-632bc673f669442baaf792995f1868f7
+* author:	nzfauna (https://sketchfab.com/nzfauna)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3D Dog Bone Project: C7 vertebra" (https://sketchfab.com/3d-models/3d-dog-bone-project-c7-vertebra-632bc673f669442baaf792995f1868f7) by nzfauna (https://sketchfab.com/nzfauna) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

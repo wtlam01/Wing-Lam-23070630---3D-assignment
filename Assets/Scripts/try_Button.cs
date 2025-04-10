@@ -19,21 +19,17 @@ public class try_Button : MonoBehaviour
 
         if (clickCount == 0)
         {
-            text1.SetActive(true);
-            text2.SetActive(false);
-            text3.SetActive(false);
-        }
-        if (clickCount == 1)
-        {
             text1.SetActive(false);
             text2.SetActive(true);
             text3.SetActive(false);
-        }
-        if (clickCount == 2)
+            Debug.Log("NoClick");
+       }
+        if (clickCount == 1)
         {
             text1.SetActive(false);
             text2.SetActive(false);
             text3.SetActive(true);
+            Debug.Log("FirstClick");
         }
 
         clickCount ++;
