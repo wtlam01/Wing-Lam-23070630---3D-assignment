@@ -69,6 +69,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
@@ -80,7 +81,10 @@ public class Timer : MonoBehaviour
     public GameObject before2025environment;
     public GameObject after2025environment;
     public GameObject fire;
-
+    public GameObject fire1;
+    public GameObject fire2;
+    public GameObject timeButton;
+    
 
 
     void Update()
@@ -119,6 +123,11 @@ public class Timer : MonoBehaviour
             before2025environment.SetActive(false);
             Debug.Log("Welcome to 2025");
             after2025environment.SetActive(true);
+            fire.SetActive(false);
+            fire1.SetActive(false);
+            fire2.SetActive(false);
+            timeButton.SetActive(false);
+            
         }
        } 
 
@@ -131,6 +140,8 @@ public class Timer : MonoBehaviour
     {
     clockRunning = true;
     fire.SetActive(true);
+    fire1.SetActive(true);
+    fire2.SetActive(true);
     }
 
 
